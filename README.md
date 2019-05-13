@@ -1,5 +1,6 @@
 # brazilian_north_programing_contest_theme
 
+![alt text](https://github.com/julianyraiol/brazilian_north_programing_contest_theme/blob/master/screenshot.png)
 
 ## Requirements
 
