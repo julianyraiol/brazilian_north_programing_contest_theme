@@ -18,7 +18,7 @@
 
 - Download brazilian_north_programing_contest_theme.zip from this repository.
 
--  In your admin panel, go to Appearance -> Themes and click the 'Add New' button
+- In your admin panel, go to Appearance -> Themes and click the 'Add New' button
 
 - Navigate to the 'Upload' area
 
