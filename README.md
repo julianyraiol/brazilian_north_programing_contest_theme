@@ -2,24 +2,27 @@
 
 ## Requirements
 
-Apache2
+- Apache2
 
-MySQL
+- MySQL
 
-Phpmyadmin
+- Phpmyadmin
 
-Wordpress
+- Wordpress
 
 ## Installation
 
-Download brazilian_north_programing_contest_theme.zip from this repository.
+```bash
 
-Navigate to the 'Add New' in the Painel > Themes
+- Download brazilian_north_programing_contest_theme.zip from this repository.
 
-Navigate to the 'Upload' area
+- Navigate to the 'Add New' in the Painel > Themes
 
-Select brazilian_north_programing_contest_theme.zip from your computer
+- Navigate to the 'Upload' area
 
-Click 'Install Now'
+- Select brazilian_north_programing_contest_theme.zip from your computer
 
-Activate the theme in dashboard
+- Click 'Install Now'
+
+- Activate the theme in dashboard
+```
