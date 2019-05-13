@@ -1,5 +1,6 @@
 # brazilian_north_programing_contest_theme
 
+
 ## Requirements
 
 - Apache2
@@ -16,7 +17,7 @@
 
 - Download brazilian_north_programing_contest_theme.zip from this repository.
 
-- Navigate to the 'Add New' in the Painel > Themes
+-  In your admin panel, go to Appearance -> Themes and click the 'Add New' button
 
 - Navigate to the 'Upload' area
 
@@ -26,3 +27,4 @@
 
 - Activate the theme in dashboard
 ```
+
