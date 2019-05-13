@@ -1,0 +1,127 @@
+/*
+Theme Name: Maratona do Norte
+Description: Template WordPress para ser usado na maratona de programação do norte.
+Author: Juliany Raiol
+*/
+
+.nav-item > a{display:block;padding:.5rem 1rem;font-family: 'Share Tech', sans-serif;
+font-weight: bolder;}
+.icon{font-size:48px;}
+.img-logo{width:100px;opacity:1;}
+.banner-texto{font-weight:800;padding-top:30px;font-size: 3em;}
+.img-logo-manaus{padding-top:1px;width:150px;opacity:1;}
+.img-logo-pyladies1{display:block;margin:auto;width:70%;}
+.img-logo-pyladies{padding-top:10px;width:100%;opacity:1;}
+.sobre-desc{padding-top:20px;}
+.ladies{margin:5%;font-family:'Lato', sans-serif;}
+.sobre{margin:5%;}
+
+.btn-regulamento { background-color: #12b2c3; color: white;}
+.btn-regulamento:focus, .btn-regulamento:hover{color:black;border:1px solid #42DCA3;outline:none;background-color:#42DCA3;}
+h2, h4{
+    font-family: 'Share Tech', sans-serif;
+}
+
+.banner-class{
+  padding-top:8%;
+}
+
+.masthead1{
+
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    cursor: default;
+    height: 100vh;
+    min-height: 35em;
+    position: relative;
+    background: url(../img/main.JPG) no-repeat center !important;
+    background-size: cover !important;
+    position: relative;
+
+}
+
+.masthead1::before{content:' ';position:absolute;top:0;bottom:0;left:0;right:0;background:#0c1440;opacity:.85;}
+.eventos h2{font-weight:800;color:#ffffff;}
+.eventos p{font-weight:800;color:#ffffff;}
+.eventos{padding:10% 0;width:100%;height:auto;position:relative;background:url("../img/banner.JPG") center scroll !important;z-index:0;}
+.eventos::before{content:' ';position:absolute;top:0;bottom:0;left:0;right:0;background:#0c1440;opacity:0.9;z-index:-1;}
+.banner{color:#ffffff;font-family:'Lato', sans-serif;}
+.img-ladies{width:100%;}
+.img-pyladies{width:50%;}
+#footer{color:#ffffff;padding-top:20px;padding-bottom:20px;font-size:small;background:#000000;}
+#footer .icons{margin:0;}
+ul.icons{cursor:default;list-style:none;padding-left:0;}
+ul.icons li{display:inline-block;padding:0 1.25em 0 0;}
+.icon{text-decoration:none;border-bottom:none;position:relative;}
+.icon:before{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-family:FontAwesome;font-style:normal;font-weight:normal;text-transform:none !important;font-size:23px;}
+.icon > .label{display:none;}
+.ladies h2{font-family:'Lato', sans-serif;font-weight:700;margin:0 0 35px;letter-spacing:1px;}
+.ladies h3{padding-top:15px;font-family:'Pacifico', sans-serif;font-weight:300;margin:0 0 35px;letter-spacing:1px;}
+
+h2, h4{
+   font-family: 'Share Tech', sans-serif;
+}
+
+
+#title{
+    line-height: 1.75em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#title::before{
+    transition: width 0.85s ease;
+    -moz-transition-delay: 0.25s;
+    -webkit-transition-delay: 0.25s;
+    -ms-transition-delay: 0.25s;
+    transition-delay: 0.25s;
+    background: #fff;
+    content: '';
+    display: block;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+}
+
+#title::after{
+    -moz-transition: width 0.85s ease;
+    -webkit-transition: width 0.85s ease;
+    -ms-transition: width 0.85s ease;
+    transition: width 0.85s ease;
+    -moz-transition-delay: 0.25s;
+    -webkit-transition-delay: 0.25s;
+    -ms-transition-delay: 0.25s;
+    transition-delay: 0.25s;
+    background: #fff;
+    content: '';
+    display: block;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+}
+
+@media (max-width:1024px){
+
+#title::after{width: 0;}
+#title::before{width: 0;}
+	
+.masthead1{height:auto;}
+
+.eventos{padding: 20% 0;}
+
+}
+
+
+
