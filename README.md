@@ -1,6 +1,6 @@
 # brazilian_north_programing_contest_theme
 
-# Requirements
+## Requirements
 
 Apache2
 
@@ -10,7 +10,7 @@ Phpmyadmin
 
 Wordpress
 
-# Installation
+## Installation
 
 Download brazilian_north_programing_contest_theme.zip from this repository.
 
